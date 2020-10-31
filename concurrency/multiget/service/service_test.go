@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/lu-moreira/shouldgo/multiget/dto"
-	"github.com/lu-moreira/shouldgo/multiget/service"
+	"github.com/lu-moreira/shouldgo/concurrency/multiget/dto"
+	"github.com/lu-moreira/shouldgo/concurrency/multiget/service"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/goleak"

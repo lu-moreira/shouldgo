@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lu-moreira/shouldgo/multiget/dto"
-	"github.com/lu-moreira/shouldgo/multiget/model"
+	"github.com/lu-moreira/shouldgo/concurrency/multiget/dto"
+	"github.com/lu-moreira/shouldgo/concurrency/multiget/model"
 )
 
 type getAllFunc func(ctx context.Context, request dto.GetUserRequest) (interface{}, error)

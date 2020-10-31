@@ -1,6 +1,6 @@
 package dto
 
-import "github.com/lu-moreira/shouldgo/multiget/model"
+import "github.com/lu-moreira/shouldgo/concurrency/multiget/model"
 
 // GetUserResponse defines the expected response of GET /user/:id
 type GetUserResponse model.User

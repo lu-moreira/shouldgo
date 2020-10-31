@@ -3,7 +3,7 @@ package channels_test
 import (
 	"testing"
 
-	"github.com/lu-moreira/shouldgo/channels"
+	"github.com/lu-moreira/shouldgo/concurrency/channels"
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/goleak"
 )
